@@ -1,4 +1,5 @@
-import logo from './logo.svg'
+import {useState} from 'react'
+import mockCharacters from "./mockData"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import CharacterEdit from "./pages/CharacterEdit"
@@ -8,14 +9,13 @@ import CharacterShow from "./pages/CharacterShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import "./App.css"
-import mockCharacters from "./mockCharacters"
 import { Routes, Route } from "react-router-dom"
 
 
 const App = () => {
   const [characters, setCharacters] = useState(mockCharacters)
-
   console.log(characters)
+
   return (
   <>
     <Header />
