@@ -1,7 +1,7 @@
 const mockCharacters = [
     {
       id: 1,
-      name: "Mittens",
+      name: "Spider Man",
       age: 5,
       enjoys: "sunshine and warm spots",
       image:

@@ -8,7 +8,6 @@ import CharacterNew from "./pages/CharacterNew"
 import CharacterShow from "./pages/CharacterShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
-import "./App.css"
 import { Routes, Route } from "react-router-dom"
 
 
