@@ -17,9 +17,9 @@ const App = () => {
 
   return (
   <>
-    <Header />
+    <Header/>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route path="/characterindex" element={<CharacterIndex />} />
       <Route path="/charactershow" element={<CharacterShow />} />
       <Route path="/characternew" element={<CharacterNew />} />
