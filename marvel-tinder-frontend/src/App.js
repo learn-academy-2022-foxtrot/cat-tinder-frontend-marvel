@@ -19,7 +19,7 @@ const App = () => {
   <>
     <Header/>
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/characterindex" element={<CharacterIndex />} />
       <Route path="/charactershow" element={<CharacterShow />} />
       <Route path="/characternew" element={<CharacterNew />} />
