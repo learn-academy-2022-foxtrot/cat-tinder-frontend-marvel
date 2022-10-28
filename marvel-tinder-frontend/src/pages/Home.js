@@ -1,10 +1,13 @@
 import React from "react"
 
 const Home = () => {
-
-    return(
-        <>  Home </>
-    )
+  return (
+    <>
+      <section className="banner-section">
+        <h1> Home </h1>
+      </section>
+    </>
+  )
 }
 
 export default Home
