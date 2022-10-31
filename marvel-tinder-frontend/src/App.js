@@ -9,6 +9,7 @@ import CharacterShow from "./pages/CharacterShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import { Routes, Route } from "react-router-dom"
+import React from "react"
 
 
 const App = () => {
