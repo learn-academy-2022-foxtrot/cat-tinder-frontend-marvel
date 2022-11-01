@@ -4,7 +4,9 @@ const Footer = () => {
     return (
         <>
           <div className="footer" > 
-            <>This is our Footer</> 
+
+            <>Marvel Tinder 2022</> 
+
           </div> 
           <br/>
         </>

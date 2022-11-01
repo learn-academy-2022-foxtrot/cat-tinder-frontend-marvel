@@ -1,3 +1,4 @@
+import React from "react"
 import {useState} from 'react'
 import mockCharacters from "./mockData"
 import Footer from "./components/Footer"
@@ -9,6 +10,7 @@ import CharacterShow from "./pages/CharacterShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import { Routes, Route } from "react-router-dom"
+
 import "./App.css"
 
 const App = () => {
@@ -65,6 +67,7 @@ const App = () => {
       <Footer/>
     </>
   )
+
 }
 
 export default App

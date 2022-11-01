@@ -4,9 +4,6 @@ import characterHome from "../assets/marvel.png"
 const Home = () => {
 
     return(
-    
-
-    
               <div>
                 <div className="jumbotron jumbotron-fluid">
                   <div className="container">
