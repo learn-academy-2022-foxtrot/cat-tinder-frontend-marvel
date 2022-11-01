@@ -3,7 +3,7 @@ import React from "react"
 const CharacterEdit = () => {
 
     return(
-        <> Character Edit </>
+        <h1>Character Edit</h1>
     )
 }
 

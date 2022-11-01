@@ -2,31 +2,29 @@ import React from "react"
 import { Card, CardBody, Button } from "reactstrap"
 import {NavLink} from "react-router-dom"
 
-const CharacterIndex = ({ characters }) => {
-  return(
-    <main>
-        <>
-        <h1>Get ready to match with your Super Hero</h1>
-        {characters?.map((character, index) => {
-            return(
-            <>
-                <Card 
-                style={{ width: '18rem' }}
-                key={index}
-                >
-                <img alt={`profile of a character named ${character.name}`} src={character.image} />
-                <CardBody>
-                    <NavLink to={`/charactershow/${character.id}`}>
-                    {character.name}
-                    </NavLink>
-                </CardBody>
-                </Card>
-            </>
-            )
-        })}
-        </>
-    </main>
-  )
-}
+const CharacterIndex = ({ characters  }) => {
 
-export default CharacterIndex
+    return(
+        <>
+          <h1>Get ready to get Super!</h1>     
+          {characters?.map((character, index) => {
+            return(
+              <div key={index} className="character-index">
+                <Card 
+                  style={{ width: '18rem' }}
+                >
+                  <img src={character.image} alt="image of eligible super hero"/>
+                  <CardBody>
+                    <NavLink to={`/charactershow/${character.id}`}>
+                      {character.name}
+                    </NavLink>
+                  </CardBody>
+                </Card>
+              </div>
+            )
+          })}
+        </>
+      )
+    }
+    
+    export default CharacterIndex

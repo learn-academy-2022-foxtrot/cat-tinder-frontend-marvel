@@ -19,12 +19,13 @@ const CharacterNew = ( { createCharacter }) => {
 
   const handleSubmit = () => {
     createCharacter(newCharacter)
-    navigate("/characterindex")
+    navigate("/Characterindex")
+
   }
 
   return(
     <>
-    <h1>Character New!</h1>
+    <h1>Add yourself to meet the Heroes!</h1>
     <Form>
       <FormGroup>
         <Label for="name">
