@@ -9,7 +9,7 @@ describe("<Footer/>", ()=> {
             <Footer/>
             </BrowserRouter>
         )
-        const element = screen.getByText("Footer")
+        const element = screen.getByText("Marvel Tinder 2022")
         expect(element).toBeInTheDocument()
     })
 })

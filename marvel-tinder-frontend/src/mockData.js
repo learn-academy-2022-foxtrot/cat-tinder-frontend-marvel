@@ -2,10 +2,10 @@ const mockCharacters = [
     {
       id: 1,
       name: "Spider Man",
-      age: 5,
+      age: 17,
       enjoys: "sunshine and warm spots",
       image:
-        "https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        "https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
     },
     {
       id: 2,

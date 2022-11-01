@@ -9,6 +9,7 @@ import CharacterShow from "./pages/CharacterShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import { Routes, Route } from "react-router-dom"
+import React from "react"
 
 
 const App = () => {
@@ -20,8 +21,8 @@ const App = () => {
     <Header/>
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route path="/characterindex" element={<CharacterIndex />} />
-      <Route path="/charactershow" element={<CharacterShow />} />
+      <Route path="/characterindex" element={<CharacterIndex characters={characters} />} />
+      <Route path="/charactershow" element={<CharacterShow characters={characters} />} />
       <Route path="/characternew" element={<CharacterNew />} />
       <Route path="/characteredit" element={<CharacterEdit />} />
       <Route path="*" element={<NotFound />} />
