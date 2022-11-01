@@ -16,7 +16,6 @@ const Header = () => {
           />
         </NavLink>
       </NavItem>
-
       <div className="meetCharacters">
       <NavItem>
         <NavLink to="/characterindex" className="nav-link">
