@@ -11,7 +11,7 @@ const Header = () => {
         <NavLink to="/">
           <img
             src={heroLogo}
-            alt="Character Tinder logo with two entertwined cats"
+            alt="Tinder Character logo with a hero being super"
             className="character-logo"
             style={{ height:"175px"}}
           />
@@ -41,18 +41,3 @@ const Header = () => {
 }
 
 export default Header
-
-// import React from "react";
-
-// const Header = () => {
-//     return (
-//         <>
-//           <div className="header" > 
-//             <>Find Super Hero Here!</> 
-//           </div> 
-//           <br/>
-//         </>
-//     )
-//     }
-    
-//     export default Header

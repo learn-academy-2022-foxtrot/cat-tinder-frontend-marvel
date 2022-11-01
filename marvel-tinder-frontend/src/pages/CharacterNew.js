@@ -14,14 +14,13 @@ const CharacterNew = ( { createCharacter }) => {
   })
 
   const handleChange = (e) => {
-    // console.log("key for the cat object", e.target.name)
-    // console.log("updated value from user input", e.target.value)
     setNewCharacter({...newCharacter, [e.target.name]:e.target.value})
   }
 
   const handleSubmit = () => {
     createCharacter(newCharacter)
     navigate("/Characterindex")
+
   }
 
   return(
