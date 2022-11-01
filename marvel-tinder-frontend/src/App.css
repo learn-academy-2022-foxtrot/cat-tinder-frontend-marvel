@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  text-align: center;
 }
+
+.header-nav {
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  display: flex-wrap;
+}
+
+.cat-home {
+  height: 500px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.card {
+  margin: 2rem 0;
+}
+
+.character-index, .character-show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.display-3 {
+  display: flex;
+  background-color: black;
+}
+

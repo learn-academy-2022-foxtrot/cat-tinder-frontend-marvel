@@ -16,7 +16,7 @@ const Home = () => {
                     </p>
                     <img
                       src={characterHome}
-                      alt="fluffy gray cat with sunglasses"
+                      alt="image of group of super heroes"
                       className="character-home"
                     />
                   </div>
